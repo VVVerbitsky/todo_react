@@ -1,0 +1,48 @@
+.content,.button{
+    display: inline-block;
+    border: 1px solid black;
+    color:white;
+}
+/*.task{
+    border: 1px solid black;
+} */
+.content{
+    width:300px;
+    text-align: left;
+    min-height:30px;
+    line-height: 30px;
+    margin-top:1px;
+    margin-left: 15px;
+    word-break:break-all;
+    background-color: rgb(111, 111, 111);
+    border-radius: 12px;
+}
+
+.button{
+    margin-top:5px;
+    margin-left:5px;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(18, 28, 224);
+    /* text-align: right; */
+}
+.button:hover{
+    color:rgb(214, 35, 197);
+    transform: scale(1.1, 1.1);
+}
+.button:active{
+    background-color: rgb(60, 68, 224);
+    transform: scale(0.9, 0.9);
+}
+@keyframes saveTask {
+        from,
+        to { box-shadow: 0px;}
+        50%  { 
+            box-shadow:0px 0px 8px green;
+            border-color: green;
+        }
+}
+.butt-field{
+    /* box-shadow: 0px 0px 8px green; */
+    animation: saveTask  1s 1 ease-in-out;
+}

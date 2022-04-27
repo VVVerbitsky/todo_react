@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+.App{
+  border:1px solid black;
+  width: 70%;
+  min-width: 500px;
+  min-height: 500px;
+  /* margin:auto; */
+  background-color: rgb(104, 89, 187);
+  border-radius: 15px;
+  overflow: hidden;
+}
